@@ -2,6 +2,7 @@ saturdays-magazine
 ==================
 
 ````
+gem install compass slim compass-normalize
 npm install
 grunt
 ````
