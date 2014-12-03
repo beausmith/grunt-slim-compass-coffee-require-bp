@@ -6,7 +6,7 @@ module.exports = (grunt)->
     compass: {
       build: {
         # NOTE -> Compass Options are in Config.rb
-      }     
+      }
     }
     slim: {
       options:{
@@ -35,8 +35,8 @@ module.exports = (grunt)->
           livereload: true
         }
       }
-      scss: {
-        files: ['./scss/*.scss']
+      sass: {
+        files: ['./sass/*.sass', './sass/*.scss']
         tasks: ['compass']
         options: {
           livereload: true

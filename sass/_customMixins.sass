@@ -1,0 +1,16 @@
+=breakpoint($point)
+  @if $point == papa-bear
+    @media (max-width: 1600px)
+      @content
+  @else if $point == mama-bear
+    @media (max-width: 1250px)
+      @content
+  @else if $point == baby-bear
+    @media (max-width: 650px)
+      @content
+
+=customTransition($property, $duration, $easing, $delay)
+  +transition-property($property)
+  +transition-duration($duration)
+  +transition-timing-function($easing)
+  +transition-delay($delay)
