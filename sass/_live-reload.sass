@@ -1,0 +1,39 @@
+$live-reload--color: black !default
+$live-reload--color-light: rgba($live-reload--color, 0.1) !default
+$live-reload--color-dark: rgba($live-reload--color, 0.3) !default
+$live-reload--size: 100px
+
++keyframes(barberpole)
+  from
+    background-position: 0 0
+  to
+    background-position: 60px 30px
+
+.live-reload__no-scroll
+  position: fixed
+  overflow: hidden
+  height: 100%
+  width: 100%
+
+.live-reload__loader
+  +customTransition(opacity, .25s, ease-in-out, 0s)
+  position: absolute
+  top: 50%
+  left: 0
+  width: 100%
+  height: $live-reload--size
+  margin-top: -$live-reload--size/2
+  border: 1px solid $live-reload--color-light
+  border-width: 10px 0
+  background-size: 30px 30px
+  background-image: linear-gradient(45deg,$live-reload--color-light 25%,transparent 25%,transparent 50%,$live-reload--color-light 50%,$live-reload--color-light 75%,transparent 75%,transparent)
+  +animation(barberpole 0.5s linear infinite)
+  text-align: center
+  font-size: $live-reload--size/2
+  line-height: $live-reload--size
+  color: $live-reload--color-dark
+  font-weight: 900
+  letter-spacing: 10px
+
+.live-reload__container
+  +customTransition(opacity, .25s, ease-in-out, .25s)

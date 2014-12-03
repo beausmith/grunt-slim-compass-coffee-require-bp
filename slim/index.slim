@@ -4,36 +4,36 @@ html
     meta charset="utf-8"
     meta content="IE=edge" http-equiv="X-UA-Compatible"
 
-    meta content="MY DESCRIPTION" name="description"
-    meta content="MY AUTHOR" name="author"
+    / meta content="MY DESCRIPTION" name="description"
+    / meta content="MY AUTHOR" name="author"
 
-    meta property="og:title" content="TITLE"
-    meta property="og:type" content="website"
-    meta property="og:image" content="CANONICAL PATH"
-    meta property="og:url" content="CANONICAL URL"
-    meta property="og:site_name" content="SITE NAME"
+    / meta property="og:title" content="TITLE"
+    / meta property="og:type" content="website"
+    / meta property="og:image" content="CANONICAL PATH"
+    / meta property="og:url" content="CANONICAL URL"
+    / meta property="og:site_name" content="SITE NAME"
 
     meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"
 
     title Title
-    
+
     / Place favicon.ico and apple-touch-icon(s) in the root directory
-    
+
     link href="./css/main.css" rel="stylesheet"
-    
+
     / Add .min to main after running 'grunt shell:optimizer'
     script src="js/modules/vendor/require.js" data-main='js/main'
 
-  
+
     //ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js
 
 
-  body.no-scroll
+  body.live-reload__no-scroll
     /![if lt IE 8]
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    
-    #loader Loading...
-    #container.hidden 
+
+    .live-reload__loader Loading...
+    .live-reload__container.hidden
       p Hello World!
 
     script src="http://localhost:35729/livereload.js"
