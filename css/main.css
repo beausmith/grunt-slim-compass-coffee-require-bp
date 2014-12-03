@@ -248,14 +248,14 @@ th {
     background-position: 0 0; }
   to {
     background-position: 60px 30px; } }
-/* line 11, ../sass/_live-reload.sass */
+/* line 12, ../sass/_live-reload.sass */
 .live-reload__no-scroll {
   position: fixed;
   overflow: hidden;
   height: 100%;
   width: 100%; }
 
-/* line 17, ../sass/_live-reload.sass */
+/* line 18, ../sass/_live-reload.sass */
 .live-reload__loader {
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
@@ -293,7 +293,7 @@ th {
   font-weight: 900;
   letter-spacing: 10px; }
 
-/* line 37, ../sass/_live-reload.sass */
+/* line 38, ../sass/_live-reload.sass */
 .live-reload__container {
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
@@ -311,3 +311,42 @@ th {
   -o-transition-delay: 0.25s;
   -webkit-transition-delay: 0.25s;
   transition-delay: 0.25s; }
+
+/* line 19, ../sass/main.sass */
+.main-nav-background, .main-nav {
+  width: 160px;
+  background-color: #222; }
+
+/* line 23, ../sass/main.sass */
+.main-nav-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1; }
+
+/* line 30, ../sass/main.sass */
+.main-nav {
+  position: relative;
+  float: left;
+  z-index: 9990; }
+
+/* line 36, ../sass/main.sass */
+.main-app {
+  margin-left: 160px;
+  height: 100%;
+  padding-left: 20px; }
+
+/* line 41, ../sass/main.sass */
+.main-app-body {
+  position: relative;
+  *zoom: 1; }
+  /* line 38, ../../../.rvm/gems/ruby-2.1.5/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+  .main-app-body:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 45, ../sass/main.sass */
+.main-app-body-content {
+  float: left;
+  width: 100%; }
