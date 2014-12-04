@@ -312,31 +312,31 @@ th {
   -webkit-transition-delay: 0.25s;
   transition-delay: 0.25s; }
 
-/* line 19, ../sass/main.sass */
+/* line 13, ../sass/_layout.sass */
 .main-nav-background, .main-nav {
   width: 160px;
   background-color: #222; }
 
-/* line 23, ../sass/main.sass */
+/* line 17, ../sass/_layout.sass */
 .main-nav-background {
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: -1; }
 
-/* line 30, ../sass/main.sass */
+/* line 24, ../sass/_layout.sass */
 .main-nav {
   position: relative;
   float: left;
   z-index: 9990; }
 
-/* line 36, ../sass/main.sass */
+/* line 30, ../sass/_layout.sass */
 .main-app {
   margin-left: 160px;
   height: 100%;
   padding-left: 20px; }
 
-/* line 41, ../sass/main.sass */
+/* line 35, ../sass/_layout.sass */
 .main-app-body {
   position: relative;
   *zoom: 1; }
@@ -346,7 +346,7 @@ th {
     display: table;
     clear: both; }
 
-/* line 45, ../sass/main.sass */
+/* line 39, ../sass/_layout.sass */
 .main-app-body-content {
   float: left;
   width: 100%; }
