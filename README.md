@@ -35,3 +35,9 @@ Production
 1. Change js/main to js/main.min in slim/index.slim
 2. Change Config.rb to compressed output and recompile
 3. Run `grunt shell:optimizer`
+
+Troubleshooting
+---------------
+### Compass not compiling?
+- try removing `compass-rails` gem.
+- try using a fresh gem bundle
