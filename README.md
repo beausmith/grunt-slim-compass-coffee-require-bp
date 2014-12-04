@@ -6,6 +6,7 @@ A blank web slate to compile code and launch a static web server with live reloa
 Bundles support for:
 - Slim
 - Sass & SCSS
+- Breakpoint Sass
 - Coffeescript
 - Normalize
 - RequireJS
@@ -19,7 +20,7 @@ Install
 Install required gems and node packages.
 
 ```
-gem install compass slim compass-normalize
+gem install compass slim compass-normalize breakpoint
 npm install
 ```
 
